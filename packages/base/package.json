@@ -1,0 +1,16 @@
+{
+  "name": "@ofelipescherer-eslint-config/base",
+  "version": "1.0.0",
+  "description": "",
+
+  "keywords": [],
+  "main": "index.js",
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.47.0"
+  },
+  "scripts": {
+    "lint": "eslint . --config=index.js --fix"
+  }
+}

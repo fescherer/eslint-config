@@ -1,0 +1,6 @@
+.turbo
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
