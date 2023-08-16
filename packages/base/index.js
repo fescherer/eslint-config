@@ -6,15 +6,18 @@ module.exports = {
     },
     sourceType: 'module'
   },
-  
+
   env: {
     es2021: true,
     node: true
   },
-  
-  rules: {
-    'no-multi-str': 'error',
-    'no-unreachable': 'warn',
+
+  extends: ["./default/rules-json"],
+
+  configs: {
+    all: require("./configs/rules-all"),
+    format: require("./configs/rules-format"),
+    lint: require("./configs/rules-lint")
   }
+
 }
-  
