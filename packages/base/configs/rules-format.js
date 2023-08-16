@@ -1,6 +1,5 @@
-module.exports = {
-
-  rules: {
+module.exports = Object.freeze({
+  rules: Object.freeze({
     'no-trailing-spaces': 'error',
     'indent': ['error', 2],
     'no-multiple-empty-lines': ['error', { max: 1, maxBOF: 0, maxEOF: 0 }],
@@ -27,5 +26,5 @@ module.exports = {
         balanced: true
       }
     }]
-  }
-}
+  })
+})
