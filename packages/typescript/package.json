@@ -1,5 +1,5 @@
 {
-  "name": "@ofelipescherer-eslint-config/typescript",
+  "name": "@fescherer-eslint-config/typescript",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -15,6 +15,6 @@
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^6.4.0",
     "@typescript-eslint/parser": "^6.4.0",
-    "@ofelipescherer-eslint-config/base": "*"
+    "@fescherer-eslint-config/base": "*"
   }
 }

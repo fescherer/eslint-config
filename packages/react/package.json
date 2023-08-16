@@ -1,5 +1,5 @@
 {
-  "name": "@ofelipescherer-eslint-config/react",
+  "name": "@fescherer-eslint-config/react",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,8 +10,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@ofelipescherer-eslint-config/base": "*",
-    "@ofelipescherer-eslint-config/typescript": "*",
+    "@fescherer-eslint-config/typescript": "*",
     "eslint-plugin-react": "^7.33.1"
   },
   "devDependencies": {
