@@ -1,13 +1,20 @@
 {
   "name": "@fescherer-eslint-config/base",
-  "version": "1.0.0",
-  "description": "",
+  "private": "false",
+  "version": "1.1.0",
   "scripts": {
     "lint": "eslint . --config=index.js --fix"
   },
-  "keywords": [],
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "eslint-config"
+  ],
+  "homepage": "https://github.com/fescherer/eslint-config",
+  "description": "Felipe Scherer's ESLint config",
+  "author": "Felipe Scherer <felipescherer25@gmail.com> (https://github.com/fescherer)",
   "main": "index.js",
-  "author": "",
   "license": "MIT",
   "dependencies": {
     "eslint-plugin-jsonc": "^2.9.0"
