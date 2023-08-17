@@ -1,7 +1,13 @@
 {
   "name": "@fescherer-eslint-config/base",
-  "private": "false",
-  "version": "1.1.0",
+  "private": false,
+  "version": "1.2.0",
+  "peerDependencies": {
+    "eslint": ">=7.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "lint": "eslint . --config=index.js --fix"
   },
