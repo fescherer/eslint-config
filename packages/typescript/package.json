@@ -3,7 +3,7 @@
   "private": false,
   "version": "1.3.0",
   "peerDependencies": {
-    "eslint": ">=7.0.0"
+    "eslint": ">=8.47.0"
   },
   "publishConfig": {
     "access": "public"
@@ -17,12 +17,14 @@
     "src"
   ],
   "keywords": [
-    "eslint-config"
+    "eslint-config",
+    "eslintconfig",
+    "eslint"
   ],
   "homepage": "https://github.com/fescherer/eslint-config",
   "description": "Felipe Scherer's ESLint config",
   "author": "Felipe Scherer <felipescherer25@gmail.com> (https://github.com/fescherer)",
-  "main": "./src/index.js",
+  "main": "./src/index",
   "license": "MIT",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^6.4.0",
