@@ -4,6 +4,7 @@ module.exports = {
       jsx: true,
     },
   },
+
   extends: [''],
   configs: {
       all: require("./configs/rules-all"),
