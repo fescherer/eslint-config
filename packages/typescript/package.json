@@ -1,5 +1,5 @@
 {
-  "name": "@fescherer-eslint-config/typescript",
+  "name": "@fescherer/eslint-config-typescript",
   "private": false,
   "version": "1.2.0",
   "peerDependencies": {
@@ -25,7 +25,7 @@
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^6.4.0",
     "@typescript-eslint/parser": "^6.4.0",
-    "@fescherer-eslint-config/base": "*"
+    "@fescherer/eslint-config-base": "*"
   },
   "devDependencies": {
     "eslint": "^8.47.0"

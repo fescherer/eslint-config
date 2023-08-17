@@ -1,5 +1,5 @@
 module.exports = Object.freeze({
-  extends: ["@fescherer-eslint-config/base:lint"],
+  extends: ["@fescherer/eslint-config-base:lint"],
   rules: Object.freeze({
     rules: {
       '@typescript-eslint/await-thenable': 'error',

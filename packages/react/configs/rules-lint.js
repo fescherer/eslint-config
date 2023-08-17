@@ -1,5 +1,5 @@
 module.exports = Object.freeze({
-  extends: ["@fescherer-eslint-config/typescript:lint"],
+  extends: ["@fescherer/eslint-config-typescript:lint"],
   plugins: [
     'jsx-a11y',
   ],
