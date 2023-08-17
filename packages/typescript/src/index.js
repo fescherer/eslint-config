@@ -9,6 +9,7 @@ module.exports = {
     tsconfigRootDir: process.cwd(),
     project: [tsconfig]
   },
+
   parser: '@typescript-eslint/parser',
   plugins: ['@typescript-eslint'],
   configs: {
