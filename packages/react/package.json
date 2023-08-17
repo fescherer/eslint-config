@@ -12,7 +12,9 @@
     "lint": "eslint . --config=index.js --fix"
   },
   "files": [
-    "index.js"
+    "LICENSE",
+    "README.md",
+    "src"
   ],
   "keywords": [
     "eslint-config"
@@ -20,7 +22,7 @@
   "homepage": "https://github.com/fescherer/eslint-config",
   "description": "Felipe Scherer's ESLint config",
   "author": "Felipe Scherer <felipescherer25@gmail.com> (https://github.com/fescherer)",
-  "main": "index.js",
+  "main": "./src/index.js",
   "license": "MIT",
   "dependencies": {
     "@fescherer/eslint-config-typescript": "*",
