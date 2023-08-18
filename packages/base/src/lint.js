@@ -12,6 +12,6 @@ module.exports = {
     node: true
   },
 
-  extends: ['./configs/json', './configs/lint', './configs/format']
+  extends: ['./default/rules-json', './configs/lint']
 
 }

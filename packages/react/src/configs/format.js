@@ -1,5 +1,4 @@
 module.exports = Object.freeze({
-  extends: ["@fescherer/eslint-config-typescript:format"],
   rules: Object.freeze({
     // 'react/jsx-indent-props': ['error', { tab: 1 }],
     'react/jsx-first-prop-new-line': ['error', 'multiline-multiprop'],
@@ -9,6 +8,6 @@ module.exports = Object.freeze({
     'jsx-a11y/lang': 'error',
 
     'react-hooks/rules-of-hooks': 'error',
-    'react-hooks/exhaustive-deps': 'warn',
+    'react-hooks/exhaustive-deps': 'warn'
   })
 })

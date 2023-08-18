@@ -1,0 +1,3 @@
+{
+  "extends": ["@fescherer/eslint-config-base"]
+}

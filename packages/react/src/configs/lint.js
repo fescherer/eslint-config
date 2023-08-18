@@ -1,8 +1,13 @@
 module.exports = Object.freeze({
-  extends: ["@fescherer/eslint-config-typescript:lint"],
   plugins: [
     'jsx-a11y',
+    'react',
+    'react-hooks'
   ],
+  settings: {
+    react:      { version: 'detect' }
+  },
+
   rules: Object.freeze({
     // This rule is not working, but would be great if would. See PR https://github.com/jsx-eslint/eslint-plugin-react/issues/3285
     'react/boolean-prop-naming': [
@@ -68,7 +73,7 @@ module.exports = Object.freeze({
     'jsx-a11y/lang': 'error',
 
     'react-hooks/rules-of-hooks': 'error',
-    'react-hooks/exhaustive-deps': 'warn',
+    'react-hooks/exhaustive-deps': 'warn'
 
   })
 })
