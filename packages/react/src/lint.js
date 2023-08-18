@@ -5,5 +5,5 @@ module.exports = {
     }
   },
 
-  extends: ['./configs/format', './configs/lint']
+  extends: ['./configs/lint']
 };

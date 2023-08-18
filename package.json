@@ -8,6 +8,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "turbo run lint",
     "publish-packages": "turbo run lint && changeset version && changeset publish"
 
   },

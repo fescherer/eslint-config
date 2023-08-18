@@ -1,5 +1,4 @@
 module.exports = Object.freeze({
-  extends: ["@fescherer/eslint-config-base:lint"],
   rules: Object.freeze({
     rules: {
       '@typescript-eslint/await-thenable': 'error',
@@ -74,7 +73,7 @@ module.exports = Object.freeze({
       '@typescript-eslint/triple-slash-reference': 'error',
       '@typescript-eslint/unbound-method': 'error',
       '@typescript-eslint/unified-signatures': 'error',
-      '@typescript-eslint/no-array-constructor': 'error',
+      '@typescript-eslint/no-array-constructor': 'error'
     }
   })
 })
