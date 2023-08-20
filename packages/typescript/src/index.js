@@ -1,6 +1,12 @@
 module.exports = {
 
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true
+    }
+  },
+
   plugins: ['@typescript-eslint'],
-  extends: ['./configs/lint', './configs/format']
+  extends: ['@fescherer/eslint-config-base', './configs/lint', './configs/format']
 
 };

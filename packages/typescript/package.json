@@ -11,7 +11,7 @@
     "eslintconfig",
     "eslint"
   ],
-  "main": "./src/index",
+  "main": "./src/index.js",
   "files": [
     "LICENSE",
     "README.md",
